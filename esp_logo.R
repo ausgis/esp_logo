@@ -20,7 +20,7 @@ sticker(
   p_color = ggplot2::alpha("#aa3322",1),
   dpi = 300,
   asp = 1,
-  h_size = 1.95,
+  h_size = 2.55,
   h_color = ggplot2::alpha("#c3c3b4",1),
   h_fill = '#ffffff',
   white_around_sticker = F,
