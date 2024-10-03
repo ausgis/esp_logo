@@ -36,3 +36,7 @@ image_read('./esp_logo.png') |>
 ```
 
 ![](./esp_logo.png)
+
+\*\* I would like to extend my sincere gratitude to [my
+girlfriend](https://github.com/layeyo) for her invaluable assistance in
+designing the base esp figure.”
