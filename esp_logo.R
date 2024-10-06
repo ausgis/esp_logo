@@ -31,5 +31,5 @@ sticker(
 )
 
 image_read('./esp_logo.png') |> 
-  image_resize("256x256")|> 
+  image_resize("240x278")|> 
   image_write('./esp_logo.png')
