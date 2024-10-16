@@ -24,9 +24,9 @@ sticker(
   h_color = ggplot2::alpha("#c3c3b4",1),
   h_fill = '#ffffff',
   white_around_sticker = F,
-  url = "https://stscl.github.io/esp",
-  u_color = ggplot2::alpha("#3e3221",1),
-  u_size = 5.25,
+  url = "https://ausgis.github.io/esp",
+  u_color = ggplot2::alpha("#3e3221",.75),
+  u_size = 5.35,
   filename = "esp_logo.png"
 )
 
