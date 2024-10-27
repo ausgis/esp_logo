@@ -1,4 +1,4 @@
-# setwd('../../Downloads/materials/esp_logo/')
+# setwd('../../Downloads/materials/sesp_logo/')
 
 library(showtext)
 showtext_auto(enable = TRUE)
@@ -7,14 +7,14 @@ library(hexSticker)
 library(magick)
 
 sticker(
-  subplot = "./fig_esp.png",
+  subplot = "./fig_sesp.png",
   s_x = 1.005,
   s_y = 0.955,
   s_width = .6,
   s_height = .6,
-  package = "Enhanced Stratified Power",
+  package = "Spatially Explicit Stratified Power",
   p_family = "ShineTypewriter",
-  p_size = 6.5,
+  p_size = 4.5,
   p_x = 1.00,
   p_y = 1.60,
   p_color = ggplot2::alpha("#aa3322",1),
@@ -24,10 +24,10 @@ sticker(
   h_color = ggplot2::alpha("#c3c3b4",1),
   h_fill = '#ffffff',
   white_around_sticker = F,
-  url = "https://ausgis.github.io/esp",
+  url = "https://ausgis.github.io/sesp",
   u_color = ggplot2::alpha("#3e3221",.75),
   u_size = 5.35,
-  filename = "esp_logo.png"
+  filename = "sesp_logo.png"
 )
 
 image_read('./esp_logo.png') |> 
