@@ -14,7 +14,7 @@ sticker(
   s_height = .6,
   package = "Spatially Explicit Stratified Power",
   p_family = "ShineTypewriter",
-  p_size = 4.5,
+  p_size = 5.5,
   p_x = 1.00,
   p_y = 1.60,
   p_color = ggplot2::alpha("#aa3322",1),
@@ -30,6 +30,6 @@ sticker(
   filename = "sesp_logo.png"
 )
 
-image_read('./esp_logo.png') |> 
+image_read('./sesp_logo.png') |> 
   image_resize("240x278")|> 
-  image_write('./esp_logo.png')
+  image_write('./sesp_logo.png')
