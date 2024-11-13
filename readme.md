@@ -38,5 +38,5 @@ image_read('./sesp_logo.png') |>
 ![](./sesp_logo.png)
 
 **I would like to extend my sincere gratitude to [my
-girlfriend](https://github.com/layeyo) for her invaluable assistance in
+friend](https://github.com/layeyo) for her invaluable assistance in
 designing the foundational sesp figure.**
